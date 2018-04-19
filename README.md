@@ -14,14 +14,14 @@ This is not well documented but it will give you an idea on how to start
 ### Implementation Guide
 
 #### 1: Installation
-`npm install --save react-notification-log`
+`npm install --save react-notification-center-clone`
 
 #### 2: Import the less file to your project
-`import 'react-notification-log/src/less/index.less'`
+`import 'react-notification-center-clone/src/less/index.less'`
 
 #### 3 Add the notification component
 ```
-import ReactNotificationCenter from 'react-notification-center';
+import ReactNotificationCenter from 'react-notification-center-clone';
 
 export default class App extends Component {
     constructor(props) {
@@ -90,7 +90,7 @@ Sorry but you cannot map `tags` at the moment :(
 
 Clone the repo and run a local demo
 ```
-git clone https://github.com/diegoddox/react-notification-center.git 
+git clone https://github.com/richhx/react-notification-center.git 
 cd react-notification-center
 npm install
 npm start
@@ -100,3 +100,4 @@ open your browser att `http://localhost:4001` and take a look at the file `devel
 
 ### TODO:
 improve documentation.
+upgrade more packages.
