@@ -1,14 +1,23 @@
 ## NOTE:
+This is a fork of [react-notification-center](https://github.com/diegoddox/react-notification-center).
+This was done in order to make it work for React v16 as active development on the component appears to
+have stopped. In particular the following changes were made:
+- Upgrade `react`, `react-dom`, and `react-hot-loader`
+- Use `prop-types`
+More changes could be coming.
+
+Below is the original demo for `react-notification-center`.
+
 This is not well documented but it will give you an idea on how to start
 ## `react-notification-center` [demo](http://diegoddox.github.io/react-notification-center/)
 
 ### Implementation Guide
 
 #### 1: Installation
-`npm install --save react-notification-center`
+`npm install --save react-notification-log`
 
 #### 2: Import the less file to your project
-`import 'react-notification-center/src/less/index.less'`
+`import 'react-notification-log/src/less/index.less'`
 
 #### 3 Add the notification component
 ```

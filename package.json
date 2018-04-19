@@ -1,6 +1,6 @@
 {
-  "name": "react-notification-center",
-  "version": "1.2.2",
+  "name": "react-notification-center-clone",
+  "version": "1.0.0",
   "description": "react-notification-center keep all your notification in a single place",
   "main": "lib/index.js",
   "jsnext:main": "./src/notification/index.js",
@@ -45,14 +45,14 @@
       "command": "node_modules/.bin/rimraf dist lib"
     }
   },
-  "author": "Diego Oliveira",
+  "author": "Richard Huang",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegoddox/react-notification-center"
+    "url": "https://github.com/richhx/react-notification-center"
   },
   "bugs": {
-    "url": "https://github.com/diegoddox/react-notification-center/issues"
+    "url": "https://github.com/richhx/react-notification-center/issues"
   },
   "files": [
     "src/",
