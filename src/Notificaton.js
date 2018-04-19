@@ -12,7 +12,7 @@ export default class Notification extends Component {
 
     render() {
         return (
-            <div clasName="">
+            <div className="">
                 <Header>{this.state.current && this.state.current[this.mapOptions().title]}</Header>
                 <Content onScrollBottom={this.props.onScrollBottom} onScroll={this.props.onScroll}>
                     <div className="desc">

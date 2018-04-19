@@ -7,3 +7,4 @@ fonts/
 dist
 typings/
 tsconfig.json
+.idea
